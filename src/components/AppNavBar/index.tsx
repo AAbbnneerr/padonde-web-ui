@@ -28,7 +28,7 @@ const AppNavBar = () => {
           <Typography
             variant="subtitle2"
             component={Link}
-            className="app-nav-bar__tool-bar__login-btn"
+            className="app-nav-bar__tool-bar__login-btn link-btn"
             onClick={() => {
               navigate("login");
             }}

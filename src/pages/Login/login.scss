@@ -1,0 +1,26 @@
+.login {
+  height: 100% !important;
+  .login__container {
+    height: 100%;
+
+    .login__container-col-1 {
+      width: 100%;
+      height: auto;
+      background-image: url("../../assets/login-banner.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .login__container-col-2 {
+      padding: 5%;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  .login-form {
+    .login-form__field {
+      width: 80%;
+    }
+  }
+}

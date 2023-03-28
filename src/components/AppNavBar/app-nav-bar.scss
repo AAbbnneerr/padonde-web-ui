@@ -1,0 +1,9 @@
+.app-nav-bar {
+  background-color: $primary-color !important;
+  .app-nav-bar__tool-bar {
+    .app-nav-bar__tool-bar__login-btn {
+      color: white !important;
+      cursor: pointer;
+    }
+  }
+}

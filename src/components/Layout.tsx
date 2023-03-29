@@ -9,7 +9,6 @@ const Layout = ({ children }) => {
       <Container
         sx={{
           height: "100%",
-          overflowX: "scroll",
         }}
       >
         {children}

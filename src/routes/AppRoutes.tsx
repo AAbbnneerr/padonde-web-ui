@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import { useLocation } from "react-router";
-
+import UnderConstruction from "pages/UnderConstruction";
 import Home from "pages/Home";
 import Login from "pages/Login";
 
@@ -14,7 +14,7 @@ const AppRoutes = () => {
 
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" element={<UnderConstruction />} />
       <Route path="/login" element={<Login />} />
     </Routes>
   );

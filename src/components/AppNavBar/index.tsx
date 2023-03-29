@@ -25,7 +25,7 @@ const AppNavBar = () => {
             pa'donde
           </Typography>
 
-          <Typography
+          {/* <Typography
             variant="subtitle2"
             component={Link}
             className="app-nav-bar__tool-bar__login-btn link-btn"
@@ -34,7 +34,7 @@ const AppNavBar = () => {
             }}
           >
             Iniciar Sesión
-          </Typography>
+          </Typography> */}
         </Toolbar>
       </AppBar>
     </Box>
